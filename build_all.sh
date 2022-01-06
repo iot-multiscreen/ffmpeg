@@ -1,4 +1,5 @@
 #!/bin/bash
+chmod -R 777 ./
 make clean
 make uninstall
 rm -rf $(pwd)/android
